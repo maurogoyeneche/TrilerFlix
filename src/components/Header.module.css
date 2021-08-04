@@ -1,0 +1,45 @@
+.headerStyle {
+  height: 30rem;
+  background: rgb(96, 96, 96);
+  background: radial-gradient(
+    circle,
+    rgba(96, 96, 96, 0.4846531899109793) 0%,
+    rgba(0, 0, 0, 0.7693452380952381) 99%
+  );
+  box-shadow: inset 0 0 5rem rgb(0, 0, 0);
+}
+.bgMainImage {
+  background-image: url("../img/hackflix.jpeg") !important;
+  background-size: cover;
+}
+h1 {
+  text-shadow: 0.2rem 0.2rem 0.2rem #040404;
+}
+
+input:focus {
+  /* outline: none !important; */
+  border-color: #ffffff !important;
+  box-shadow: 0 0 10px #ffffff !important;
+}
+input:hover {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 10px #ffffff !important;
+}
+
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(218, 218, 218, 0.859) !important;
+  font-size: 20px;
+}
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.852) !important;
+}
+input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, 0.948) !important;
+}
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgb(227, 227, 227) !important;
+}
